@@ -1,0 +1,53 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid red;
+    height: 100vh;
+}
+
+.header{
+    background-color: rgb(122, 114, 114);
+    padding: 20px;
+}
+
+
+.footer{
+    background-color: rgb(122, 114, 114);
+    padding: 20px;
+}
+
+.section{
+    border: 1px solid green;
+    height:80vh;
+    display: flex;
+}
+
+.left-container{
+    height:100%;
+    width:18%;
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(122, 114, 114);
+
+}
+
+.right-container{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.section-box{
+    display: flex;
+    width: 500px;
+    height:200px;
+    background-color:  rgb(122, 114, 114);
+    margin: 10px;
+
+}
+
+
+
